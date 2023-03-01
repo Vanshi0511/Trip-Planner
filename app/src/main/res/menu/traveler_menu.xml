@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_profile"
+        android:title="Edit Profile" />
+    <item android:id="@+id/menu_myBookings"
+        android:title="My Bookings"/>
+    <item android:id="@+id/menu_about"
+        android:title="About" />
+    <item android:id="@+id/menu_help"
+          android:title="Help" />
+    <item android:id="@+id/menu_logOut"
+        android:title="Log out" />
+    <item android:id="@+id/menu_deactivate"
+        android:title="Deactivate" />
+
+</menu>

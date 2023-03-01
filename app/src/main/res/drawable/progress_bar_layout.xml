@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--use rotate tag to rotate the drawable-->
+<rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="1080">
+
+    <shape
+        android:innerRadiusRatio="3"
+        android:shape="ring"
+        android:thicknessRatio="10"
+        android:useLevel="false">
+        <size
+            android:width="150dp"
+            android:height="150dp" />
+
+        <gradient
+            android:angle="0"
+            android:endColor="#00ffffff"
+            android:startColor="@color/blue"
+            android:type="sweep"
+            android:useLevel="false"/>
+
+    </shape>
+
+</rotate>

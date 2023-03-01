@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@color/blue">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who are you ?"
+                android:textSize="18dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:gravity="center_horizontal"
+           android:layout_height="match_parent">
+
+           <com.google.android.material.button.MaterialButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/btnOrganizer"
+               app:cornerRadius="30dp"
+               android:backgroundTint="@color/white"
+               app:strokeColor="@color/blue"
+               android:layout_marginTop="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/blue"
+               app:strokeWidth="3dp"
+               android:text="Organizer"
+               app:rippleColor="#33AAAAAA"
+               android:textSize="15dp"
+               android:textAllCaps="false"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Who organizes a new trip."
+               android:textStyle="bold"/>
+
+           <com.google.android.material.button.MaterialButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               app:cornerRadius="30dp"
+               android:textStyle="bold"
+               android:id="@+id/btnTraveler"
+               android:backgroundTint="@color/white"
+               app:strokeWidth="3dp"
+               app:rippleColor="#33AAAAAA"
+               android:layout_marginTop="40dp"
+               app:strokeColor="@color/blue"
+               android:textColor="@color/blue"
+               android:text="Traveler"
+               android:textSize="15dp"
+               android:textAllCaps="false"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Who wants to travel"
+               android:textStyle="bold"/>
+
+       </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

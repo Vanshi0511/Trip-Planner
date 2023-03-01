@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/background_theme.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/button_layout.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/button_signin.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/curve_design.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_add.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_email.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_help.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_password.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_person.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/ic_share.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/new_design.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/drawable/progress_bar_layout.xml" value="0.205" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_about.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_book_seats.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_bookings.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_choice.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_help.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_my_bookings.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_new_trip.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_organizer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_organizer_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_splash.xml" value="0.21875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_traveler_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_traveler_profile.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_view_organizer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_view_traveler.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/activity_view_trip.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/background_theme.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/choice_dialog.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/custom_toast_internet.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/image_recycler_view.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/organizer_navigation_header.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/recycler_bookings.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/recycler_mybookings.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/seat_book_dialog.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/layout/trip_cardview.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/menu/organizer_navigation_menu.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/menu/traveler_menu.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/TripPlanner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.205" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

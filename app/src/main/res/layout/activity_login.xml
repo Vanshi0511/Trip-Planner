@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/curve_design">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="27dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:id="@+id/linearID"
+        android:visibility="gone"
+        android:layout_marginTop="70dp"
+        android:background="@color/red">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invalid Email or Password"
+            android:textSize="14dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailLayoutID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="200dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+       <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loginEmailID"
+            android:layout_width="match_parent"
+           android:drawableLeft="@drawable/ic_email"
+           android:drawablePadding="12dp"
+            android:layout_height="wrap_content"
+            android:hint="E-mail" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passLayoutID"
+        android:layout_below="@+id/emailLayoutID"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loginPassID"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_password"
+            android:layout_width="match_parent"
+            android:drawablePadding="12dp"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passLayoutID"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/button_layout"
+        android:text="Sign in"
+        android:foreground="?attr/selectableItemBackground"
+        android:theme="@style/ThemeOverlay.Material3.Dark"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpID"
+        android:layout_below="@id/btnSignin"
+        android:textColor="@color/blue"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textAlignment="center"
+        android:text="Account not created? Sign-Up"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetPassID"
+        android:layout_below="@id/passLayoutID"
+        android:textColor="@color/black"
+        android:text="Reset Password?"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:visibility="visible"
+        android:layout_marginLeft="24dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_marginTop="120dp"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bar_layout"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
